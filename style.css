@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*--------navbar sections-------- */
+
+
+/*------------------- banner section--------------- */
+.section-1{
+  background-image: url(https://ik.imagekit.io/uu8endnzg/food%20store%20webpage/top-view-sliced-cooked-meat-with-greens-cherry-tomatoes-with-seasonings-blue-background.jpg?updatedAt=1751136378595);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.section-1 .container{
+    height: 100vh;
+}
+/* ---------------------------menu sections ----------------------*/
+.section-3 img{
+    border-radius: 25px;
+}
+.section-3 .card{
+    border-radius: 25px;
+}
+/*------------ gift box section ---------*/
+.section-6{
+    background-color: RGB(252, 238, 183);
+}
+/*.------------ social-media links section ---------*/
+.section-7 .social-media{
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*------------ footer sections ---------*/
+footer{
+    background-color: RGB(13, 36, 54);
+}
+
+
+
+
+
+/*--------------------- media quaryies for mobile -----------------------*/
+@media (min-width:250px) and (max-width:576px) {
+    .section-1{
+        height: 50vh;
+    }
+    .section-1 .container{
+        height: 60vh;
+    }
+    
+}
+
+
+    
+    
+/* ------------------------------media quaryies for SM device----------------- */
+@media (min-width: 576px) {
+   
+     }
