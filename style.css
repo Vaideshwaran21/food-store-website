@@ -1,0 +1,102 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/*--------------- navbar section ---------------------- */
+
+/*--------- banner section------------- */
+.section-1 {
+  background-image: url(/assets/AdobeStock_848055724_Preview.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1 .container {
+  height: 100vh;
+}
+
+/* <!------------- why choose section --------------> */
+.card {
+  border-radius: 15px;
+}
+/* ---------explore menu section-------- */
+.items-img img {
+  border-radius: 15px;
+}
+/*-------------- gift box sections----------- */
+.section-6 {
+  background-color: RGB(252, 236, 174);
+}
+.section-6 {
+  height: 50vh;
+}
+/*----------------- follows section ------------*/
+.section-7 .social-media {
+  width: 100px;
+  height: 100px;
+  background-color: RGB(250, 247, 232);
+  border-radius: 50%;
+}
+/*-------------- footer sections -------------*/
+footer {
+  background-color: RGB(13, 36, 54);
+}
+
+/*--------------- media quaryies-------- */
+/*--- mobile responsive --*/
+/*--------- banner section------------- */
+@media (max-width: 480px) {
+  .section-1 .container {
+    height: 40vh;
+  }
+  .section-1 {
+    margin-top: 80px;
+  }
+  .section-6 {
+    height: 35vh;
+  }
+  .section-7 .social-media {
+    width: 70px;
+    height: 70px;
+    background-color: RGB(250, 247, 232);
+    border-radius: 50%;
+  }
+}
+
+/* --------mobile landsclae responsive ------*/
+@media (max-width: 767.98px) {
+  .section-1 .container {
+    height: 40vh;
+  }
+  .section-1 {
+    margin-top: 70px;
+  }
+}
+
+/*-------------- laptop responsive --------- */
+@media (min-width: 992px) {
+  /* .container{
+    width: 75%;
+  } */
+}
+
+/*----- tablet responsive */
+@media (min-width: 768px) and (max-width: 900px) {
+  .section-1 .container {
+    height: 40vh;
+  }
+  .section-1 {
+    margin-top: 100px;
+  }
+  .section-6 {
+    height: 35vh;
+  }
+}
